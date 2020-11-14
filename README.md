@@ -1,5 +1,5 @@
 ==== How to use it ====
-  - download the CMake and .cpp files from as-20/feature_camera-lidar-calibration:<code>https://gitlab.ka-raceing.de/ka-raceing/as-20/-/tree/feature_camera-lidar-calibration</code>
+  - download the CMake and .cpp files from as-20/feature_camera-lidar-calibration
   - open main.cpp file with your IDE and change the path to your local path:<code>//get the path of image and point cloud
 std::string path_img = "/home/yang/Documents/Ka-Raceing/as/imgs/frame0011.jpg";
 std::string path_pointcloud = "/home/yang/Documents/Ka-Raceing/as/pcl/1603117156.516590000.pcd";</code>
