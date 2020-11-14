@@ -6,22 +6,15 @@ How to use it
 1. download the CMake and .cpp files
 
 2. open main.cpp file with your IDE and change the path to your local path:
-
 //get the path of image and point cloud
 std::string path_img = "/home/yang/Documents/Ka-Raceing/as/imgs/frame0011.jpg";
 std::string path_pointcloud = "/home/yang/Documents/Ka-Raceing/as/pcl/1603117156.516590000.pcd";
-
 3. open a terminal in the folder where your CMake file and cpp file exist and build the program
-
 cmake .
 make
-
 4. excute the programm
-
 ./hand_calibration
-
 5. follow the instructions of the terminal, you will see like this:
-
 ==================== hand calibration for lidar-camera ==================
 at least select four keypoints
 ==================== keypoints select in image ====================
