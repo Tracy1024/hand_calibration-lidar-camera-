@@ -1,5 +1,7 @@
+==== Discription ====
+This method is used for Camera Lidar calibration of recorded data. The rotation matrix and translation vector can be calculated using hand-selected keypoints.
 ==== How to use it ====
-  - download the CMake and .cpp files from as-20/feature_camera-lidar-calibration
+  - download the CMake and .cpp files
   - open main.cpp file with your IDE and change the path to your local path:<code>//get the path of image and point cloud
 std::string path_img = "/home/yang/Documents/Ka-Raceing/as/imgs/frame0011.jpg";
 std::string path_pointcloud = "/home/yang/Documents/Ka-Raceing/as/pcl/1603117156.516590000.pcd";</code>
@@ -28,6 +30,7 @@ t: [0.07660287973794566;
  0.3321785856626438;
  1.586501982219909]
 </code>
+
 
 
 
